@@ -9,11 +9,9 @@ import ListHeader from './components/ListHeader/ListHeader';
 import NewsFeed from './components/NewsFeed/NewsFeed';
 import CoinDetail from './components/CoinDetail/CoinDetail';
 
-// Lazy load components for better performance
 const MarketMetrics = lazy(() => import('./components/MarketMetrics/MarketMetrics'));
 const MarketScreener = lazy(() => import('./components/MarketScreener/MarketScreener'));
 const MarketSummary = lazy(() => import('./components/MarketSummary/MarketSummary'));
-
 function App() {
   const [coins, setCoins] = useState([]);
   const [search, setSearch] = useState('');
