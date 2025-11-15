@@ -31,7 +31,7 @@ function App() {
   const [viewMode, setViewMode] = useState('grid');
   const [sideFilterOpen, setSideFilterOpen] = useState(false);
   const filterPanelRef = useRef(null);
-  //DRY principle applied - useDebounce hook
+  // Ref for detecting outside clicks
   // Debounce search for performance
   const debouncedSearch = useDebounce(search, 300);
   
@@ -998,4 +998,4 @@ function App() {
 }
 
 export default App;
-/** hello */
+/** hello **/

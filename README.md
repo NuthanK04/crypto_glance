@@ -123,12 +123,5 @@ Contributions are welcome! Please follow these steps:
   ```
 5. **Open a pull request**
 
-## 📞 Contact
-
-For any inquiries or feedback, please reach out to [darshangaikwad4114@gmail.com](mailto:darshangaikwad4114@gmail.com).
-
-## 📄 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
 
 
