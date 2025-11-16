@@ -18,3 +18,4 @@ module.exports = {
     ],
   },
 }
+//Help// This is an ESLint configuration file for a React project. It sets up the environment, extends recommended rules, and includes a plugin to ensure that only React components are exported.
